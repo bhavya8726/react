@@ -10,9 +10,10 @@ import Id from './idcard.jsx'
 import Counter from './counter.jsx'
 import Cart from './cart.jsx'
 import Simple from './sipal.jsx'
+import Login from './login.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Simple/>
+    <Login/>
   </StrictMode>,
 )
